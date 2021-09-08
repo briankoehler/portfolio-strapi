@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/featured-project",
+      "handler": "featured-project.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/featured-project",
+      "handler": "featured-project.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/featured-project",
+      "handler": "featured-project.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
